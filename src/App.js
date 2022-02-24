@@ -49,7 +49,7 @@ const centerContainer = {
   "with": "100%",
   "height": "100vh",
   "textAlign": "center",
-  "margin": "20px 0"
+  "background": "#ccc"
 }
 
 export default App;

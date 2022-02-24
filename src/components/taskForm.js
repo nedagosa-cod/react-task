@@ -41,6 +41,7 @@ const formStyle = {
     "flexDirection": "column",
     "textAlign": "center",
     "alignItems": "center",
+
 }
 
 const inputText = {
@@ -51,7 +52,8 @@ const inputText = {
     "border": "1px solid #000",
     "borderRadius": "8px",
     "outline": "none",
-    "boxShadow": "-1px 2px 3px 1px black"
+    "boxShadow": "-1px 2px 3px 1px black",
+    "background": "white"
 }
 
 const inputArea = {
@@ -62,5 +64,7 @@ const inputArea = {
     "border": "1px solid #000",
     "borderRadius": "8px",
     "outline": "none",
-    "boxShadow": "-1px 2px 3px 1px black"
+    "boxShadow": "-1px 2px 3px 1px black",
+    "background": "white",
+    "padding": "10px 20px",
 }

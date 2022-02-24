@@ -17,7 +17,8 @@ class Task extends React.Component {
             padding: '10px',
             display: 'flex',
             justifyContent: 'space-between',
-            alignItems: 'center'
+            alignItems: 'center',
+            background: 'white',
         }
     }
 
@@ -27,7 +28,7 @@ class Task extends React.Component {
         return <div style={this.TareaHecha()}>
             <input type="checkbox" onChange={this.props.checkDone.bind(this, task.id)} />
             <div>
-                {task.title} <br />
+                {task.title.toUpperCase()} <br />
                 {task.descripcion}
                 {task.done}
             </div>
