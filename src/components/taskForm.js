@@ -30,7 +30,7 @@ export default class TaskForm extends React.Component {
                     style={inputArea}
                 ></textarea>
                 <br />
-                <input type="submit" />
+                <input type="submit" style={inputSubmit}/>
             </form>
         )
     }
@@ -67,4 +67,15 @@ const inputArea = {
     "boxShadow": "-1px 2px 3px 1px black",
     "background": "white",
     "padding": "10px 20px",
+}
+
+const inputSubmit = {
+    "width": "80px",
+    "height": "30px",
+    "border": "1px solid black",
+    "cursor": "pointer", 
+    "borderRadius": "10px",
+    "background": "blue",
+    "display": "block",
+    "color": "white"
 }
