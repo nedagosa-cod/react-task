@@ -38,11 +38,18 @@ class App extends React.Component {
   }
 
   render () {
-    return <div>
+    return <div style={centerContainer}>
       <TaskForm addTask={this.addTask} />
       <Tasks tasks={this.state.tasks} deleteTask={this.deleteTask} checkDone={this.checkDone} />
     </div>
   }
+}
+
+const centerContainer = {
+  "with": "100%",
+  "height": "100vh",
+  "textAlign": "center",
+  "margin": "20px 0"
 }
 
 export default App;
